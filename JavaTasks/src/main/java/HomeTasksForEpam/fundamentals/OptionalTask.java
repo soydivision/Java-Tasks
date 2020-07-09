@@ -27,35 +27,38 @@ public class OptionalTask {
 
 		for (int i = 0; i < n; i++) {
 			String string = Integer.toString(Math.abs(numbers.get(i)));
-
 			if (string.length() > Integer.toString(Math.abs(longestInteger)).length()) {
 				longestInteger = numbers.get(i);
 			}
-
 			if (string.length() < Integer.toString(Math.abs(shortestInteger)).length()) {
 				shortestInteger = numbers.get(i);
 			}
 		}
 
-		System.out.println("Longest number is; Самое длинное число " + longestInteger);
-		System.out.println("Shortest number is; Самое короткое число " + shortestInteger);
+		System.out.println("Longest number is, Самое длинное число " + longestInteger);
+		System.out.println("Shortest number is, Самое короткое число " + shortestInteger);
 
-		bubbleSort(numbers);
+		bubbleSortByLength(numbers);
+		System.out.println("Elements sorted by ascending length order, Элементы по возрастанию длины:");
 		System.out.println(numbers);
 		Collections.reverse(numbers);
+		System.out.println("Elements sorted by descending length order, Элементы по убыванию длины:");
 		System.out.println(numbers);
 
 	}
 
-	public static void bubbleSort(ArrayList<Integer> arr) {
-		for (int i = 0; i < arr.size(); i++) {
-			for (int j = 0; j < arr.size() - 1 - i; j++) {
-				if (arr.get(j) > arr.get(j + 1)) {
-					int temp = arr.get(j);
-					arr.set(j, arr.get(j + 1));
-					arr.set(j + 1, temp);
+	public static void bubbleSortByLength(ArrayList<Integer> array) {
+		for (int i = 0; i < array.size(); i++) {
+			for (int j = 0; j < array.size() - 1 - i; j++) {
+				int jIntegerLength = Integer.toString(Math.abs(array.get(j))).length();
+				int jIntegerPlusOneLength = Integer.toString(Math.abs(array.get(j + 1))).length();
+				if (jIntegerLength > jIntegerPlusOneLength) {
+					int temp = array.get(j);
+					array.set(j, array.get(j + 1));
+					array.set(j + 1, temp);
 				}
 			}
+
 		}
 	}
 
