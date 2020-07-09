@@ -8,13 +8,13 @@
 bin/ 
 target/ 
 
-/maven/target/classes
+/Maven/target/classes
 
-/maven/target/generated-sources
+/Maven/target/generated-sources
 
-/maven/target/maven-status
+/Maven/target/maven-status
 
-/maven/target/test-classes
+/Maven/target/test-classes
 
 /.idea
 
