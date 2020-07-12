@@ -37,6 +37,10 @@ abstract public class Car {
 		return price;
 	}
 
+	public int getMaxSpeed() {
+		return maxSpeed;
+	}
+
 	public void setMaxSpeed(int maxSpeed) {
 		this.maxSpeed = maxSpeed;
 	}
