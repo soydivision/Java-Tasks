@@ -2,10 +2,10 @@ package collections;
 
 import collections.taxiTypes.*;
 
-public class Taxi extends Car {
+public class TaxiCab extends Car {
 	private TaxiType type;
 
-	public Taxi(String model, int fuelConsumption, int price, int maxSpeed, TaxiType type) {
+	public TaxiCab(String model, int fuelConsumption, int price, int maxSpeed, TaxiType type) {
 		super(model, fuelConsumption, price, maxSpeed);
 		this.type = type;
 	}

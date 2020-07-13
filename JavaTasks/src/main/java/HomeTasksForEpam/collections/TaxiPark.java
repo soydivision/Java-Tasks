@@ -16,21 +16,21 @@ public class TaxiPark {
 		return taxies;
 	}
 
-	public List<Taxi> getTaxiCars() {
-		List<Taxi> TaxiCars = new ArrayList<>();
+	public List<TaxiCab> getTaxiCars() {
+		List<TaxiCab> TaxiCars = new ArrayList<>();
 		for (Car taxi : taxies) {
-			if (taxi instanceof Taxi) {
-				TaxiCars.add((Taxi) taxi);
+			if (taxi instanceof TaxiCab) {
+				TaxiCars.add((TaxiCab) taxi);
 			}
 		}
 		return TaxiCars;
 	}
 
-	public List<VanTaxi> getVanTaxies() {
-		List<VanTaxi> VanTaxies = new ArrayList<>();
+	public List<TaxiVan> getVanTaxies() {
+		List<TaxiVan> VanTaxies = new ArrayList<>();
 		for (Car taxi : taxies) {
-			if (taxi instanceof VanTaxi) {
-				VanTaxies.add((VanTaxi) taxi);
+			if (taxi instanceof TaxiVan) {
+				VanTaxies.add((TaxiVan) taxi);
 			}
 		}
 		return VanTaxies;
@@ -45,9 +45,9 @@ public class TaxiPark {
 		return this;
 	}
 
-	public Taxi getMaxSpeedTaxi() {
-		List<Taxi> taxies = getTaxiCars();
-		Taxi taxiWithMaxSpeed = taxies.get(0);
+	public TaxiCab getMaxSpeedTaxiCab() {
+		List<TaxiCab> taxies = getTaxiCars();
+		TaxiCab taxiWithMaxSpeed = taxies.get(0);
 		for (int i = 0; i < taxies.size(); i++) {
 			if (taxies.get(i).getMaxSpeed() > taxiWithMaxSpeed.getMaxSpeed()) {
 				taxiWithMaxSpeed = taxies.get(i);
@@ -56,10 +56,23 @@ public class TaxiPark {
 		return taxiWithMaxSpeed;
 	}
 
-	public VanTaxi getMaxSpeedVanTaxi() {
-		List<VanTaxi> vanTaxies = getVanTaxies();
-		VanTaxi vanTaxiWithMaxSpeed = vanTaxies.get(0);
+	public TaxiVan getMaxSpeedTaxiVan() {
+		List<TaxiVan> vanTaxies = getVanTaxies();
+		TaxiVan vanTaxiWithMaxSpeed = vanTaxies.get(0);
+		for (int i = 0; i < vanTaxies.size(); i++) {
+			if (vanTaxies.get(i).getMaxSpeed() > vanTaxiWithMaxSpeed.getMaxSpeed()) {
+				vanTaxiWithMaxSpeed = vanTaxies.get(i);
+			}
+		}
+		return vanTaxiWithMaxSpeed;
+	}
+
+	public int getTaxiCabsTotalCost() {
+		List<TaxiCab> taxiesTotalCost = getTaxiCars();
 		
+		
+		
+	return 
 	}
 
 }
