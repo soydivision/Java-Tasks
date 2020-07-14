@@ -21,7 +21,7 @@ abstract public class Car {
 		this.model = model;
 	}
 
-	public int getfuelConsumption() {
+	public int getFuelConsumption() {
 		return fuelConsumption;
 	}
 
@@ -46,8 +46,9 @@ abstract public class Car {
 	}
 
 	public String toString() {
-		return "Model: " + model + "Fuel consumption " + fuelConsumption + "Car price " + price + "Maximum Speed "
-				+ maxSpeed;
+		return "Model: " + model + " Fuel consumption " + fuelConsumption + " Car price " + price + " Maximum Speed "
+				+ maxSpeed + "\n";
+
 	}
 
 }

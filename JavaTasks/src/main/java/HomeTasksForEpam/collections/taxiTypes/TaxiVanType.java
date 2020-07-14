@@ -1,5 +1,5 @@
 package collections.taxiTypes;
 
-public enum VanTaxiType {
+public enum TaxiVanType {
 	INTERCITY, SPECIAL, LUXURY, FORSIXPEOPLE, FOREIGHTPEOPLE
 }
