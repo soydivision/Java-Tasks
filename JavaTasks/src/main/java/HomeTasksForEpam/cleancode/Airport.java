@@ -1,6 +1,5 @@
 package cleancode;
 
-import cleancode.Planes.experimentalPlane;
 import cleancode.models.MilitaryType;
 import cleancode.Planes.MilitaryPlane;
 import cleancode.Planes.PassengerPlane;
@@ -75,11 +74,11 @@ public class Airport {
 
 	}
 
-	public List<experimentalPlane> getExperimentalPlanes() {
-		List<experimentalPlane> experimentalPlanes = new ArrayList<>();
+	public List<cleancode.Planes.ExperimentalPlane> getExperimentalPlanes() {
+		List<cleancode.Planes.ExperimentalPlane> experimentalPlanes = new ArrayList<>();
 		for (Plane plane : planes) {
-			if (plane instanceof experimentalPlane) {
-				experimentalPlanes.add((experimentalPlane) plane);
+			if (plane instanceof cleancode.Planes.ExperimentalPlane) {
+				experimentalPlanes.add((cleancode.Planes.ExperimentalPlane) plane);
 			}
 		}
 		return experimentalPlanes;

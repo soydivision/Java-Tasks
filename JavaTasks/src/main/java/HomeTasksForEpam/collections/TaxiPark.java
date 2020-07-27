@@ -17,23 +17,23 @@ public class TaxiPark {
 	}
 
 	public List<TaxiCab> getTaxiCars() {
-		List<TaxiCab> TaxiCars = new ArrayList<>();
+		List<TaxiCab> taxiCars = new ArrayList<>();
 		for (Car taxi : taxies) {
 			if (taxi instanceof TaxiCab) {
-				TaxiCars.add((TaxiCab) taxi);
+				taxiCars.add((TaxiCab) taxi);
 			}
 		}
-		return TaxiCars;
+		return taxiCars;
 	}
 
 	public List<TaxiVan> getTaxiVans() {
-		List<TaxiVan> VanTaxies = new ArrayList<>();
+		List<TaxiVan> taxiVans = new ArrayList<>();
 		for (Car taxi : taxies) {
 			if (taxi instanceof TaxiVan) {
-				VanTaxies.add((TaxiVan) taxi);
+				taxiVans.add((TaxiVan) taxi);
 			}
 		}
-		return VanTaxies;
+		return taxiVans;
 	}
 
 	public TaxiPark sortByFuelConsumption() {

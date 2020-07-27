@@ -20,5 +20,8 @@ target/
 
 /JenkinsTasks/
 JenkinsTasks/
+.idea/
+.settings/
+
 
 
