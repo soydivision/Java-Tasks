@@ -22,6 +22,6 @@ target/
 JenkinsTasks/
 .idea/
 .settings/
-
+.gitignore
 
 
