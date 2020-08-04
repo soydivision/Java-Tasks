@@ -1,0 +1,10 @@
+Started by user [8mha:////4LNBhjwuTId5Uu5H4SlewBpQVnhndp9WV3SutLBJYX92AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgYu/dLi1CL9pMT0RAAQ15AuvwAAAA==[0mBagzhan Sadvakassov
+Running as SYSTEM
+Building on master in workspace C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\HelloUser
+[HelloUser] $ cmd /c call C:\WINDOWS\TEMP\jenkins4293433423991101786.bat
+
+C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\HelloUser>echo DESKTOP-6IU7ES5$ 
+DESKTOP-6IU7ES5$
+
+C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\HelloUser>exit 0 
+Finished: SUCCESS

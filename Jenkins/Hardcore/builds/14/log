@@ -1,0 +1,8 @@
+Started by user [8mha:////4IKcdFO4o5+rjGjEBljBW+0Ouri4CPTXdxmIN18jPS9tAAAAkx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CIwAQCDCvH+vwAAAA==[0muser user
+Running as SYSTEM
+Building on master in workspace C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\HelloUser
+[HelloUser] $ C:\cygwin64\bin\sh.exe -xe C:\WINDOWS\TEMP\jenkins1371333300934974441.sh
++ echo 'Hello, user user'
+Hello, user user
++ exit 0
+Finished: SUCCESS
