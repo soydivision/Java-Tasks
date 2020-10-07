@@ -4,7 +4,7 @@
 *.odt
 *.classpath
 *.project
-
+*.txt
 bin/ 
 target/ 
 !target/surefire-reports/
