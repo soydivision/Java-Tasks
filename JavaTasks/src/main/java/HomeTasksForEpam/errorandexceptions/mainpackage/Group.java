@@ -1,7 +1,5 @@
 package errorandexceptions.mainpackage;
 
-import errorandexceptions.*;
-
 import java.util.List;
 
 public class Group {

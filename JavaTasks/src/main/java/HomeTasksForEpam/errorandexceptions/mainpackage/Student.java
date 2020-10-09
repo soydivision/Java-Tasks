@@ -3,12 +3,10 @@ package errorandexceptions.mainpackage;
 import errorandexceptions.exceptions.NoSuchSubjectsException;
 import errorandexceptions.speciality.Speciality;
 import errorandexceptions.subjects.Subjects;
-import errorandexceptions.subjects.*;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-import java.util.concurrent.ThreadLocalRandom;
 
 public class Student {
     private String name;

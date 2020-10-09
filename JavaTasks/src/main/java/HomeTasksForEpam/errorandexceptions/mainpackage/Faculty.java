@@ -1,6 +1,7 @@
 package errorandexceptions.mainpackage;
 
-import errorandexceptions.exceptions.*;
+import errorandexceptions.exceptions.EmptyFacultyException;
+import errorandexceptions.exceptions.NoSuchSubjectsException;
 
 import java.util.List;
 

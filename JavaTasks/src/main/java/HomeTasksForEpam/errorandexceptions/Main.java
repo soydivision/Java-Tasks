@@ -1,12 +1,16 @@
 package errorandexceptions;
 
-import errorandexceptions.mainpackage.*;
-import errorandexceptions.speciality.*;
-import errorandexceptions.subjects.*;
+import errorandexceptions.mainpackage.Faculty;
+import errorandexceptions.mainpackage.Group;
+import errorandexceptions.mainpackage.Student;
+import errorandexceptions.mainpackage.University;
+import errorandexceptions.speciality.FineArtsSpeciality;
+import errorandexceptions.speciality.LawSpeciality;
+import errorandexceptions.speciality.MathSpeciality;
+import errorandexceptions.speciality.PhysicxSpeciality;
+import errorandexceptions.subjects.Subjects;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Main {
