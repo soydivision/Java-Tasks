@@ -8,7 +8,8 @@ public class SubjectMark {
 
     public SubjectMark(Enum subject, int mark) {
         this.subject = subject;
-        this.mark = mark;
+        //this.mark = mark;
+        setMark(mark);
     }
 
     public Enum getSubject() {
